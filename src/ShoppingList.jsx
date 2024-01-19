@@ -8,6 +8,7 @@ export default function ShoppingList(){
         {id: uuidv4(), product: 'eggs', quantity: 12}])
 
 
+
     function addItem(item) {
         if(!item.product){
             return;
