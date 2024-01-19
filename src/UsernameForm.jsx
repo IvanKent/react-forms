@@ -8,7 +8,8 @@ function UsernameForm() {
     }
     return (
         <div>
-            <input type="text" placeholder="username" value={username} onChange={text}/>
+            <label htmlFor="username">Enter a Username</label>
+            <input id="username" type="text" placeholder="username" value={username} onChange={text}/>
             <button>Submit</button>
         </div>
     )
